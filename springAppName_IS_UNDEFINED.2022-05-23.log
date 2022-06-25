@@ -1,0 +1,386 @@
+2022-05-23T10:32:57.096+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Starting DemoApplication using Java 1.8.0_91 on localhost with PID 26907 (/Users/jiangjiankang/java/demo/target/classes started by jiangjiankang in /Users/jiangjiankang/java/demo)
+2022-05-23T10:32:57.098+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  No active profile set, falling back to 1 default profile: "default"
+2022-05-23T10:32:58.830+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat initialized with port(s): 8080 (http)
+2022-05-23T10:32:58.842+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-23T10:32:58.843+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardService -  Starting service [Tomcat]
+2022-05-23T10:32:58.843+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardEngine -  Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-23T10:32:58.985+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring embedded WebApplicationContext
+2022-05-23T10:32:58.986+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.s.c.ServletWebServerApplicationContext -  Root WebApplicationContext: initialization completed in 1784 ms
+2022-05-23T10:32:59.480+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Starting ProtocolHandler ["http-nio-8080"]
+2022-05-23T10:32:59.514+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23T10:32:59.525+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Started DemoApplication in 4.376 seconds (JVM running for 6.337)
+2022-05-23T10:33:17.079+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-23T10:33:17.079+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Initializing Servlet 'dispatcherServlet'
+2022-05-23T10:33:17.080+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Completed initialization in 1 ms
+2022-05-23T10:33:17.137+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:33:17.138+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&------WebKitFormBoundarypNK5JqkqBjz0gkQi%0D%0AContent-Disposition%3A+form-data%3B+name=%22name%22%0D%0A%0D%0Aj%0D%0A------WebKitFormBoundarypNK5JqkqBjz0gkQi%0D%0AContent-Disposition%3A+form-data%3B+name%3D%22age%22%0D%0A%0D%0A10000%0D%0A------WebKitFormBoundarypNK5JqkqBjz0gkQi--%0D%0A
+2022-05-23T10:33:17.139+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:33:23.404+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:33:23.405+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:33:23.405+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:33:24.350+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:33:24.351+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:33:24.351+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:33:25.109+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:33:25.109+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:33:25.109+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:09.703+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:09.704+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:09.704+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:10.469+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:10.471+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:10.472+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:10.897+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:10.897+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:10.897+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:11.247+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:11.247+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:11.247+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:11.668+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:11.668+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:11.668+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:12.062+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:12.062+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:12.062+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:12.567+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:12.568+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:12.568+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:12.966+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:12.967+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:12.968+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:13.219+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:13.219+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:13.219+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:13.386+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:13.388+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:13.388+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:13.612+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:13.613+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:13.613+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:13.816+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:13.816+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:13.816+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:14.003+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:14.003+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:14.003+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:14.452+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:14.452+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:14.452+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:14.618+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:14.618+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:14.618+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:14.841+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:14.841+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:14.841+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:15.051+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:15.052+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:15.052+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:15.301+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:15.301+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:15.302+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:15.705+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:15.705+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:15.706+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:16.104+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:16.104+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:16.104+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:16.362+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:16.362+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:16.362+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:16.552+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:16.552+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:16.552+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:16.792+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:16.793+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:16.793+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:17.097+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:17.097+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:17.097+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:17.326+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:17.326+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:17.327+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:17.701+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:17.701+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:17.702+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:18.951+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:18.953+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:18.953+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:19.673+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:19.673+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:19.673+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:20.632+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:20.633+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:20.633+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:21.533+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:21.533+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:21.533+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:22.670+0800 [WARN] springAppName_IS_UNDEFINED o.s.w.s.m.s.DefaultHandlerExceptionResolver - 11111 Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2022-05-23T10:34:22.670+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/x-www-form-urlencoded 
+ content: car=haahah&name=name&age=100
+2022-05-23T10:34:22.670+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:   
+2022-05-23T10:34:46.445+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:34:46.445+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:35:46.296+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Starting DemoApplication using Java 1.8.0_91 on localhost with PID 27122 (/Users/jiangjiankang/java/demo/target/classes started by jiangjiankang in /Users/jiangjiankang/java/demo)
+2022-05-23T10:35:46.298+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  No active profile set, falling back to 1 default profile: "default"
+2022-05-23T10:35:47.861+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat initialized with port(s): 8080 (http)
+2022-05-23T10:35:47.873+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-23T10:35:47.874+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardService -  Starting service [Tomcat]
+2022-05-23T10:35:47.875+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardEngine -  Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-23T10:35:48.043+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring embedded WebApplicationContext
+2022-05-23T10:35:48.043+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.s.c.ServletWebServerApplicationContext -  Root WebApplicationContext: initialization completed in 1700 ms
+2022-05-23T10:35:48.509+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Starting ProtocolHandler ["http-nio-8080"]
+2022-05-23T10:35:48.541+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23T10:35:48.553+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Started DemoApplication in 3.174 seconds (JVM running for 4.789)
+2022-05-23T10:37:01.141+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Starting DemoApplication using Java 1.8.0_91 on localhost with PID 27220 (/Users/jiangjiankang/java/demo/target/classes started by jiangjiankang in /Users/jiangjiankang/java/demo)
+2022-05-23T10:37:01.145+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  No active profile set, falling back to 1 default profile: "default"
+2022-05-23T10:37:02.688+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat initialized with port(s): 8080 (http)
+2022-05-23T10:37:02.699+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-23T10:37:02.699+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardService -  Starting service [Tomcat]
+2022-05-23T10:37:02.700+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardEngine -  Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-23T10:37:02.840+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring embedded WebApplicationContext
+2022-05-23T10:37:02.841+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.s.c.ServletWebServerApplicationContext -  Root WebApplicationContext: initialization completed in 1476 ms
+2022-05-23T10:37:03.608+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Starting ProtocolHandler ["http-nio-8080"]
+2022-05-23T10:37:03.651+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23T10:37:03.666+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Started DemoApplication in 3.908 seconds (JVM running for 5.277)
+2022-05-23T10:37:09.891+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-23T10:37:09.892+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Initializing Servlet 'dispatcherServlet'
+2022-05-23T10:37:09.893+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Completed initialization in 1 ms
+2022-05-23T10:37:10.003+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:10.006+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:37:12.503+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:12.503+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:37:13.176+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:13.177+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:37:13.693+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:13.693+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:37:14.131+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:14.131+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:37:14.463+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:14.464+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:37:14.709+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:14.709+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:37:14.889+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:14.890+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:37:15.071+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:15.072+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:37:15.204+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:15.204+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:37:15.368+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:37:15.369+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T10:55:26.441+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request, method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T10:55:26.443+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  success: haahahjiang 
+2022-05-23T14:01:50.735+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Starting DemoApplication using Java 1.8.0_91 on localhost with PID 34715 (/Users/jiangjiankang/java/demo/target/classes started by jiangjiankang in /Users/jiangjiankang/java/demo)
+2022-05-23T14:01:50.738+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  No active profile set, falling back to 1 default profile: "default"
+2022-05-23T14:01:52.498+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat initialized with port(s): 8080 (http)
+2022-05-23T14:01:52.510+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-23T14:01:52.510+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardService -  Starting service [Tomcat]
+2022-05-23T14:01:52.510+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardEngine -  Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-23T14:01:52.640+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring embedded WebApplicationContext
+2022-05-23T14:01:52.640+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.s.c.ServletWebServerApplicationContext -  Root WebApplicationContext: initialization completed in 1782 ms
+2022-05-23T14:01:53.112+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Starting ProtocolHandler ["http-nio-8080"]
+2022-05-23T14:01:53.146+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23T14:01:53.156+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Started DemoApplication in 3.754 seconds (JVM running for 5.597)
+2022-05-23T14:02:07.641+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-23T14:02:07.641+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Initializing Servlet 'dispatcherServlet'
+2022-05-23T14:02:07.642+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Completed initialization in 1 ms
+2022-05-23T14:02:07.842+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request： method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T14:03:35.809+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Starting DemoApplication using Java 1.8.0_91 on localhost with PID 34850 (/Users/jiangjiankang/java/demo/target/classes started by jiangjiankang in /Users/jiangjiankang/java/demo)
+2022-05-23T14:03:35.813+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  No active profile set, falling back to 1 default profile: "default"
+2022-05-23T14:03:37.721+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat initialized with port(s): 8080 (http)
+2022-05-23T14:03:37.730+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-23T14:03:37.731+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardService -  Starting service [Tomcat]
+2022-05-23T14:03:37.731+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardEngine -  Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-23T14:03:37.878+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring embedded WebApplicationContext
+2022-05-23T14:03:37.878+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.s.c.ServletWebServerApplicationContext -  Root WebApplicationContext: initialization completed in 1872 ms
+2022-05-23T14:03:38.512+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Starting ProtocolHandler ["http-nio-8080"]
+2022-05-23T14:03:38.547+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23T14:03:38.559+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Started DemoApplication in 4.657 seconds (JVM running for 6.651)
+2022-05-23T14:03:47.758+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-23T14:03:47.758+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Initializing Servlet 'dispatcherServlet'
+2022-05-23T14:03:47.759+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Completed initialization in 1 ms
+2022-05-23T14:03:53.837+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request： method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T14:06:02.897+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Starting DemoApplication using Java 1.8.0_91 on localhost with PID 35031 (/Users/jiangjiankang/java/demo/target/classes started by jiangjiankang in /Users/jiangjiankang/java/demo)
+2022-05-23T14:06:02.899+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  No active profile set, falling back to 1 default profile: "default"
+2022-05-23T14:06:04.930+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat initialized with port(s): 8080 (http)
+2022-05-23T14:06:04.946+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-23T14:06:04.946+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardService -  Starting service [Tomcat]
+2022-05-23T14:06:04.946+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardEngine -  Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-23T14:06:05.123+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring embedded WebApplicationContext
+2022-05-23T14:06:05.124+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.s.c.ServletWebServerApplicationContext -  Root WebApplicationContext: initialization completed in 2045 ms
+2022-05-23T14:06:05.765+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Starting ProtocolHandler ["http-nio-8080"]
+2022-05-23T14:06:05.802+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23T14:06:05.816+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Started DemoApplication in 4.768 seconds (JVM running for 7.216)
+2022-05-23T14:06:13.553+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-23T14:06:13.553+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Initializing Servlet 'dispatcherServlet'
+2022-05-23T14:06:13.554+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Completed initialization in 1 ms
+2022-05-23T14:06:16.509+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request： method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T14:11:07.486+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Starting DemoApplication using Java 1.8.0_91 on localhost with PID 35426 (/Users/jiangjiankang/java/demo/target/classes started by jiangjiankang in /Users/jiangjiankang/java/demo)
+2022-05-23T14:11:07.489+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  No active profile set, falling back to 1 default profile: "default"
+2022-05-23T14:11:09.117+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat initialized with port(s): 8080 (http)
+2022-05-23T14:11:09.124+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Initializing ProtocolHandler ["http-nio-8080"]
+2022-05-23T14:11:09.125+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardService -  Starting service [Tomcat]
+2022-05-23T14:11:09.125+0800 [INFO] springAppName_IS_UNDEFINED o.a.catalina.core.StandardEngine -  Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-23T14:11:09.243+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring embedded WebApplicationContext
+2022-05-23T14:11:09.244+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.s.c.ServletWebServerApplicationContext -  Root WebApplicationContext: initialization completed in 1622 ms
+2022-05-23T14:11:09.719+0800 [INFO] springAppName_IS_UNDEFINED o.a.coyote.http11.Http11NioProtocol -  Starting ProtocolHandler ["http-nio-8080"]
+2022-05-23T14:11:09.748+0800 [INFO] springAppName_IS_UNDEFINED o.s.b.w.e.tomcat.TomcatWebServer -  Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-23T14:11:09.758+0800 [INFO] springAppName_IS_UNDEFINED com.example.demo.DemoApplication -  Started DemoApplication in 3.964 seconds (JVM running for 5.734)
+2022-05-23T14:11:20.098+0800 [INFO] springAppName_IS_UNDEFINED o.a.c.c.C.[Tomcat].[localhost].[/] -  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-23T14:11:20.098+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Initializing Servlet 'dispatcherServlet'
+2022-05-23T14:11:20.099+0800 [INFO] springAppName_IS_UNDEFINED o.s.web.servlet.DispatcherServlet -  Completed initialization in 1 ms
+2022-05-23T14:11:20.226+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 request： method: POST, URI: /post, queryString: car=haahah 
+ contentType: application/json 
+ content: {
+	"name": "jiang",
+	"age": 18
+}
+2022-05-23T14:11:20.228+0800 [INFO] springAppName_IS_UNDEFINED c.g.f.l.i.RequestLogInterceptor - 11111 response:  status: 200, content: success: haahahjiang 
