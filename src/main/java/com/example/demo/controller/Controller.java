@@ -1,13 +1,17 @@
 package com.example.demo.controller;
 
+import com.example.demo.service.FSMService;
 import com.example.demo.service.StateMachineServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
+
 @RestController
 public class Controller {
-    @Autowired
-    private StateMachineServices stateMachineServices;
+
+    @Resource
+    FSMService fsmService;
 
     @PostMapping(value = "post")
     public String post(@RequestBody PostBody req, @RequestParam String car) throws Exception {
@@ -21,6 +25,6 @@ public class Controller {
 
     @GetMapping(value = "fire")
     public void fire() throws Exception {
-        stateMachineServices.fire();
+        fsmService.newFSM(1, 1).fire("action");
     }
 }

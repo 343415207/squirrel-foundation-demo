@@ -21,7 +21,7 @@ public class BankStateMachine extends AbstractUntypedStateMachine {
     protected void fromTo(String from, String to, String event, Integer context) {
         System.out.println("Transition from '" + from + "' to '" + to + "' on event '" + event +
                 "' with context '" + context + "'.");
-        callBackService.execute();
+        callBackService.execute(from, to, event, context);
     }
 
     protected void ontoB(String from, String to, String event, Integer context) {

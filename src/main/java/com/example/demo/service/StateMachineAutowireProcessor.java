@@ -28,9 +28,6 @@ public class StateMachineAutowireProcessor implements SquirrelPostProcessor<Unty
     @Override
     public void postProcess(UntypedStateMachine untypedStateMachine) {
         Preconditions.checkNotNull(untypedStateMachine);
-        BankStateMachine bankStateMachine = applicationContext.getBean(BankStateMachine.class);
-        // after state machine instance created,
-        // autowire @Autowired/@Value dependencies and properties within state machine class
         AutowireCapableBeanFactory autowireCapableBeanFactory = applicationContext.getAutowireCapableBeanFactory();
         autowireCapableBeanFactory.autowireBean(untypedStateMachine);
         System.out.println("auto wire BankStateMachine ");

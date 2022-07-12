@@ -7,7 +7,7 @@ import org.squirrelframework.foundation.fsm.UntypedStateMachineBuilder;
 @Service
 public class StateMachineServices {
     @Autowired
-    UntypedStateMachineBuilder builder;
+    FSMServiceImpl fsmService;
 
     public void fire() {
         BankStateMachine bankStateMachine = builder.newUntypedStateMachine("A");
