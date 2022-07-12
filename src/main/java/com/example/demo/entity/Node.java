@@ -7,4 +7,5 @@ public class Node {
     private int from;
     private int to;
     private int version;
+    private String event;
 }

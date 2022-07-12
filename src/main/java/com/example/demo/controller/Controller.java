@@ -25,6 +25,7 @@ public class Controller {
 
     @GetMapping(value = "fire")
     public void fire() throws Exception {
-        fsmService.newFSM(1, 1).fire("action");
+        // TOOD order_id ==> current , version
+        fsmService.newFSM(1, 1).fire("action", 100);
     }
 }
