@@ -1,8 +1,6 @@
 package com.example.demo.controller;
 
 import com.example.demo.service.FSMService;
-import com.example.demo.service.StateMachineServices;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -25,7 +23,7 @@ public class Controller {
 
     @GetMapping(value = "fire")
     public void fire() throws Exception {
-        // TOOD order_id ==> current , version
-        fsmService.newFSM(1, 1).fire("action", 100);
+        // TOOD order_id ==> current version, status
+        fsmService.newFSM(1, 1).fire("pay", 100);
     }
 }

@@ -2,10 +2,5 @@ logging:
   level:
     org.apache.http.wire: debug
     org.apache.http.headers: debug
-    com.guazi.finance.log.interceptor.RequestLogInterceptor: debug
   file:
     path: ./
-guazi:
-  http:
-    wrap: true
-    enable: true
